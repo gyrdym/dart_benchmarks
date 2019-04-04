@@ -20,8 +20,6 @@ class SetContainsBenchmark extends BenchmarkBase {
   }
 }
 
-// Main function runs the benchmark.
 void main() {
-  // Run TemplateBenchmark.
   SetContainsBenchmark.main();
 }

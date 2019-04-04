@@ -11,4 +11,6 @@ For all the iterables a collection of 10000 double elements has been used as a s
 
 - **List#indexOf** - It took the same time to find the index of a value for both growable and fixed version of `List`
 - **Set#contains** - It took much less time to find if the value exists than `indexOf` of `List`. But, conversion to
-`Set` takes much time, so there is no use to convert your list to a set just to make a single check  
+`Set` takes much time, so there is no use to convert your list to a set just to make a single check
+- **List#forEach** - It took the same time to iterate through the both fixed and growable list
+- **for..in loop** - It took a little more time than `List#forEach` to iterate through the collection

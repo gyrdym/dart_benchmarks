@@ -12,12 +12,10 @@ class SetContainsWithInitializationBenchmark extends BenchmarkBase {
   }
 
   void run() {
-    Set.from(iterableSource).contains(targetValue);
+    iterableSource.toSet().contains(targetValue);
   }
 }
 
-// Main function runs the benchmark.
 void main() {
-  // Run TemplateBenchmark.
   SetContainsWithInitializationBenchmark.main();
 }

@@ -22,8 +22,6 @@ class FixedListIndexOfBenchmark extends BenchmarkBase {
   }
 }
 
-// Main function runs the benchmark.
 void main() {
-  // Run TemplateBenchmark.
   FixedListIndexOfBenchmark.main();
 }
