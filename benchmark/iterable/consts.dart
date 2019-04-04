@@ -1,0 +1,1 @@
+const targetValue = -8697.904398773058;

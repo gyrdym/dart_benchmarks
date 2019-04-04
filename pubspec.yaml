@@ -1,0 +1,15 @@
+name: dart_benchmarks
+version: 0.0.1
+author: Ilia Gyrdymov <ilgyrd@gmail.com>
+description: Benchmarks of different code snippets written in Dart
+homepage: https://github.com/gyrdym/dart_benchmarks
+
+environment:
+  sdk: '>=2.2.0 <3.0.0'
+
+dev_dependencies:
+  test: ^1.2.0
+  build_runner: ^1.1.2
+  build_test: ^0.10.2
+  pedantic: ^1.4.0
+  benchmark_harness: ">=1.0.0 <2.0.0"
